@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center; /* horizontally centred*/
+    align-items: center;
+    min-height: 100vh; /* vertically centred*/
+    background-color: #f4e4ba;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 2rem;
+    min-height: 45vh;
+    min-width: 40vh;
+}
+
+form{
+    margin: 2rem 0 2rem 1rem;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 2px solid purple;
+    font-size: 0.75rem;
+    height: 1.5rem;
+
+}
+.arrow{
+    margin: 0 1rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.select-container{
+    display:flex; /* we added only elements that should be side by side*/
+    justify-content: center;
+    align-items: center;
+    border: 2px solid purple;
+    border-radius: 0.75rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    width: 6rem;
+
+}
+
+/* therefore, div should also be created with caution*/
+
+#msg{
+    margin: 1rem;
+}
+
+form button{
+    background-color: violet;
+    color: aliceblue;
+    height: 2rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: purple;
+}
+
+#submit:active{
+    background-color: black;
+}
